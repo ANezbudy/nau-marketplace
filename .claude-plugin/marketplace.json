@@ -11,21 +11,13 @@
   },
   "plugins": [
     {
-      "name": "code-formatter",
-      "source": "./plugins/formatter",
-      "description": "Automatic code formatting on save",
-      "version": "2.1.0",
+      "name": "congi-creator",
+      "source": "./plugins/config-creator",
+      "description": "Automatic config creator",
+      "version": "1.0.0",
       "author": {
-        "name": "DevTools Team"
+        "name": "NAU"
       }
-    },
-    {
-      "name": "deployment-tools",
-      "source": {
-        "source": "github",
-        "repo": "company/deploy-plugin"
-      },
-      "description": "Deployment automation tools"
     }
   ]
 }
