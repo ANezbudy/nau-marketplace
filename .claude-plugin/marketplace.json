@@ -1,0 +1,31 @@
+{
+  "name": "nau-tools",
+  "owner": {
+    "name": "NAU",
+    "email": "anezbudii@gmail.com",
+    "url": "https://github.com/ANezbudy/nau-marketplace"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace by nau",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "code-formatter",
+      "source": "./plugins/formatter",
+      "description": "Automatic code formatting on save",
+      "version": "2.1.0",
+      "author": {
+        "name": "DevTools Team"
+      }
+    },
+    {
+      "name": "deployment-tools",
+      "source": {
+        "source": "github",
+        "repo": "company/deploy-plugin"
+      },
+      "description": "Deployment automation tools"
+    }
+  ]
+}
