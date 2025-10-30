@@ -18,6 +18,15 @@
       "author": {
         "name": "NAU"
       }
+    },
+    {
+      "name": "trapctl-helper",
+      "source": "./plugins/trapctl-helper",
+      "description": "T-RAP CLI (trapctl) command helper and reference guide",
+      "version": "1.0.0",
+      "author": {
+        "name": "NAU"
+      }
     }
   ]
 }
